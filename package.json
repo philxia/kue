@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "redis": "~0.10.0",
-    "express": "~3.1.1",
+    "express": "~4.1.2",
     "jade": "1.1.5",
     "stylus": "0.42.2",
     "lodash": "^2.4.1",
