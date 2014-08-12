@@ -1,6 +1,6 @@
 {
   "name": "kue",
-  "version": "0.8.1",
+  "version": "0.8.5",
   "description": "Feature rich priority job queue backed by redis",
   "homepage": "http://learnboost.github.com/kue/",
   "keywords": [
@@ -9,6 +9,7 @@
     "worker",
     "redis"
   ],
+  "license": "MIT",
   "author": "TJ Holowaychuk <tj@learnboost.com>",
   "repository": {
     "type": "git",

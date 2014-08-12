@@ -1,3 +1,38 @@
+0.8.5 / 2014-08-08
+==================
+
+  * Fix typo in removeOnComplete
+  
+0.8.4 / 2014-08-08
+==================
+
+  * Emit event 'job failed attempt' after job successfully updated, closes #377
+  * Fix delaying jobs when failed, closes #384
+  * Implement `job.removeOnComplete`, closes #383
+  * Make searchKeys chainable, closes #379
+  * Add extra job options to JSON API, closes #378
+  
+0.8.3 / 2014-07-13
+==================
+
+  * Inject other Redis clients compatible with node_redis #344
+  * Add support to connect to Redis using Linux sockets #362
+  * Add .save callback sample code in documentation #367
+
+0.8.2 / 2014-07-08
+==================
+
+  * Fix broken failure backoff #360
+  * Merge web console redirection fix #357
+  * Add db selection option to redis configuration #354
+  * Get number of jobs with given state and type #349
+  * Add Queue.prototype.delayed function #351
+
+0.8.1 / 2014-06-13
+==================
+
+  * Fix wrong parameter orders in complete event #343s
+  * Graceful shutdown bug fix #328
 
 0.8.0 / 2014-06-11
 ==================
